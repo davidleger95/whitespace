@@ -438,6 +438,7 @@ a {
 /* line 1, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
 .navbar-wrapper {
   position: fixed;
+  z-index: 10;
   width: 250px;
   height: 100vh;
   padding: 20px;
@@ -448,53 +449,65 @@ a {
   @media (max-width: 800px) {
     /* line 1, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar-wrapper {
-      left: -100%; } }
+      top: 40px;
+      left: -100%;
+      padding: 0;
+      width: 100%;
+      height: calc(100% - 50px); } }
+  /* line 22, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  .navbar-wrapper a {
+    text-decoration: none; }
+    /* line 25, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    .navbar-wrapper a.active {
+      color: #FF0066; }
 
-/* line 21, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+/* line 33, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
 .navbar {
   position: relative;
   background: #4A4A4A;
   box-shadow: 0 0 20px #4A4A4A;
   height: calc(100% - 40px);
   text-align: center; }
-  /* line 29, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
-  .navbar a {
-    text-decoration: none; }
-    /* line 32, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
-    .navbar a.active {
-      color: #FF0066; }
-  /* line 37, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  @media (max-width: 800px) {
+    /* line 33, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    .navbar {
+      height: 100%; } }
+  /* line 42, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar .logo {
     padding: 40px 0; }
-    /* line 40, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    @media (max-width: 800px) {
+      /* line 42, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .navbar .logo {
+        display: none; } }
+    /* line 47, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar .logo h1 {
       font-size: 5em; }
-    /* line 44, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    /* line 51, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar .logo h1, .navbar .logo h2 {
       margin: 0;
       color: white; }
-  /* line 50, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  /* line 57, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar hr {
     width: 30%;
     margin: 10px auto;
     height: 1px;
     background: #999999;
     border: none; }
-  /* line 58, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  /* line 65, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar ul {
     list-style: none;
     padding: 20px 0; }
-  /* line 63, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  /* line 70, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar .navbar-inner {
     color: #999999; }
-    /* line 66, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    /* line 73, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar .navbar-inner .nav-item {
       padding: 20px 0; }
-  /* line 71, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  /* line 78, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar .social-icons {
     display: block;
     margin-left: calc(50% - 80px); }
-    /* line 75, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    /* line 82, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar .social-icons .s-icon {
       display: block;
       float: left;
@@ -504,18 +517,18 @@ a {
       background: white;
       border-radius: 50%;
       transition: background 200ms ease-in-out; }
-      /* line 85, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      /* line 92, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
       .navbar .social-icons .s-icon.twitter:hover {
         background: #4099FF; }
-      /* line 89, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      /* line 96, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
       .navbar .social-icons .s-icon.facebook:hover {
         background: rgba(59, 89, 152, 0.7); }
-      /* line 95, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      /* line 102, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
       .navbar .social-icons .s-icon a {
         display: block;
         margin-top: 30%;
         width: 100%; }
-  /* line 103, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  /* line 110, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
   .navbar .nav-footer {
     position: absolute;
     bottom: 0;
@@ -524,16 +537,79 @@ a {
     border-top: 1px solid #999999;
     padding: 5px;
     font-size: 0.7em; }
-    /* line 114, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    /* line 121, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
     .navbar .nav-footer .copyright {
       color: #999999; }
-      /* line 116, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      /* line 123, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
       .navbar .nav-footer .copyright a {
         font-style: italic; }
 
+/* line 130, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+.mobile-nav {
+  z-index: 20;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  box-shadow: 0 0 20px black;
+  color: white;
+  background: #4A4A4A;
+  text-align: center; }
+  @media (max-width: 800px) {
+    /* line 130, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    .mobile-nav {
+      display: block; } }
+  /* line 146, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  .mobile-nav a {
+    text-decoration: none; }
+  /* line 150, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+  .mobile-nav .menu-icon {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 30px;
+    margin-top: 5px; }
+    /* line 157, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+    .mobile-nav .menu-icon span {
+      display: block;
+      height: 1px;
+      margin: 9px;
+      background: white;
+      border-radius: 1px;
+      transition: all 0.5s ease-in-out; }
+      /* line 164, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span:nth-child(1) {
+        width: 100%; }
+      /* line 167, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span:nth-child(2) {
+        width: 66.7%; }
+      /* line 171, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span:nth-child(3) {
+        width: 50%; }
+      /* line 176, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span.nav-active:nth-child(1) {
+        width: 100%;
+        transform: rotateZ(45deg);
+        margin-top: 19px;
+        margin-bottom: -11px; }
+      /* line 182, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span.nav-active:nth-child(2) {
+        opacity: 0; }
+      /* line 186, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+      .mobile-nav .menu-icon span.nav-active:nth-child(3) {
+        width: 100%;
+        transform: rotateZ(-45deg);
+        margin-top: -9px; }
+
+/* line 198, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_navbar.scss */
+.nav-active {
+  left: 0; }
+
 /* line 1, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_body.scss */
 body {
-  background: #E8E8E8; }
+  background: #4099FF; }
 
 /* line 5, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_body.scss */
 .content-wrapper {
@@ -546,7 +622,8 @@ body {
   @media (max-width: 800px) {
     /* line 5, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_body.scss */
     .content-wrapper {
-      width: 100%; } }
+      width: 100%;
+      margin-top: 50px; } }
 
 /* line 1, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_article.scss */
 .post-container {
@@ -609,7 +686,7 @@ body {
       background: limegreen; }
     /* line 68, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.opinion {
-      background: skyblue; }
+      background: #4099FF; }
     /* line 71, /Users/David/Documents/_whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.programming {
       background: crimson; }
