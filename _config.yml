@@ -5,4 +5,5 @@ exclude: ["node_modules",
   "package.json",
   "preview.jpg",
   "README.md"]
-baseurl: "/_whitespace"
+
+baseurl: '/_whitespace'
