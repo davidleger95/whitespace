@@ -1,0 +1,51 @@
+// --------------------------------------------------
+//  Headings
+// --------------------------------------------------
+
+h1, h2, h3, h4, h5, h6{
+    
+    margin: 0.5em 0;
+    line-height: 1em;
+    
+    font-weight: 100;
+    
+    //color: white;
+    
+    // Subtitles
+    .sub{
+        font-size: 0.8em;
+    }
+}
+
+// --------------------------------------------------
+//  Body
+// --------------------------------------------------
+
+p{
+    color: $dark;
+}
+
+a{
+    color: inherit;
+    &:hover{
+        color: $primary;
+    }
+}
+
+
+
+// --------------------------------------------------
+//  Text Alignment
+// --------------------------------------------------
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}

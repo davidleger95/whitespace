@@ -1,0 +1,139 @@
+.post-container{
+    margin: 20px;
+    box-shadow: 0 0 20px $dark;
+    
+    @media(max-width: 800px){
+        margin: 10px;
+        font-size: 0.8em;
+    }
+    .post-header{
+        background: $dark;
+        
+        padding: 20px;
+        text-align: center;
+        color: white;
+        img{
+            clear: both;
+            display: block;
+            margin: auto;
+            height: 125px;
+            @media(max-width: 800px){
+                height: 80px;
+            }
+        }
+        
+        .post-meta{
+            color: $accent;
+            font-size: 1em;
+        }
+        
+        .post-title{
+            font-size: 1.8em;
+        }
+        
+    }
+    
+    .post-body{
+        padding: 30px;
+        background: white;
+        @media(max-width: 800px){
+            padding: 15px;
+        }
+    }
+    
+    
+    
+}
+
+.post-tags{
+    clear: both;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    
+    font-size: 0.8em;
+    .tag{
+        background: $primary;
+        margin: 5px;
+        padding: 2px 5px;
+        //height: 20px;
+        width: auto;
+        float: left;
+        color: white;
+        
+        &.education{
+            background: limegreen;
+        }
+        
+        &.opinion{
+            background: $twitter;
+        }
+        &.programming{
+            background: crimson;
+        }
+    }
+}
+
+.posts{
+    a{
+        text-decoration: none;
+    }
+    .title-bar{
+        
+        margin: 20px;
+        padding: 5px 20px;
+        background: $dark;
+        color: white;
+        box-shadow: 0 0 20px $dark;
+        
+        @media(max-width: 800px){
+            margin: 20px 0px;
+        }
+    }
+    .posts-list{
+        
+        
+        padding: 0 20px;
+        list-style: none;
+        @media(max-width: 800px){
+            padding: 0 10px;
+        }
+        .post-item{
+            box-shadow: 0 0 20px $dark;
+            background: white;
+            width: 100%;
+            margin-bottom: 10px;
+            
+            .thumbnail{
+                float: left;
+                width: 50px;;
+                height: 51px;
+                background: $dark;
+                padding: 10px;
+                display: block;
+                position: relative;
+                margin-right: 10px;
+            }
+            
+            .post-info{
+                padding-top: 10px;
+                font-size: 0.8em;
+                
+                @media(max-width: 800px){
+                    font-size: 0.65em;
+                }
+                .post-meta{
+                    font-size: 1em;
+                    color: $accent;
+                    margin: 0;;
+                }
+                .post-title{
+                    margin: 0;
+                }
+                .post-tags{
+                    margin-left: -5px;
+                }
+            }
+        }
+    }
+}

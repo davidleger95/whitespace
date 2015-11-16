@@ -1,0 +1,22 @@
+/**************************************************
+ *
+ * Styles for [project name]
+ * AUTHOR   David Leger
+ *          www.davidleger.me
+ *
+ **************************************************/
+
+// Bourbon mixins
+@import "tools/bourbon/bourbon";
+
+// 0-base contains the basis for the styles.
+@import "0-base/fonts";
+@import "0-base/normalize";
+@import "0-base/vars";
+@import "0-base/typography";
+//@import "0-base/grid";
+
+// 1-modules
+@import "1-modules/navbar";
+@import "1-modules/body";
+@import "1-modules/article";
