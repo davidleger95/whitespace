@@ -8,7 +8,7 @@ layout: default
         </div>
         <ul class="posts-list">
             {% for post in site.posts %}
-            <a href="{{post.url}}">
+            <a href="{{ site.baseurl }}{{post.url}}">
             <li class="post-item">
                 <img class="thumbnail" src="{{ site.baseurl }}/assets/img/post-img.svg" alt="thumbnail" />
                 <div class="post-info">
