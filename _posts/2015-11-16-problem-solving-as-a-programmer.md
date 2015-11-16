@@ -1,13 +1,13 @@
 ---
 layout:     posts  
 
-title:      How to be a Great Programmer  
+title:      Problem Solving as a Programmer  
 subtitle:   The Importance of Problem Solving in Computer Science  
 author:     David Leger  
 readTime:   4  
 image:      _.png  
 
-categories: [programming, opinion]  
+categories: [programming, education]  
 tags:       [programming, code, problem solving, knowledge]
 
 ---
