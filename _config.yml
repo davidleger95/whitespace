@@ -6,4 +6,4 @@ exclude: ["node_modules",
   "preview.jpg",
   "README.md"]
 
-baseurl: ''
+baseurl: 'whitespace'
