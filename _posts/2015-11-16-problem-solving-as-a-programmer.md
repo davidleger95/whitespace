@@ -4,7 +4,7 @@ layout:     posts
 title:      Problem Solving as a Programmer  
 subtitle:   The Importance of Problem Solving in Computer Science  
 author:     David Leger  
-readTime:   4  
+readTime:   6  
 image:      _.png  
 
 categories: [programming, education]  
