@@ -533,7 +533,8 @@ body {
   background: #4099FF; }
 
 .content-wrapper {
-  float: right;
+  float: left;
+  margin-left: 280px;
   display: block;
   width: calc(100% - 290px);
   max-width: 1400px;
@@ -543,7 +544,8 @@ body {
   @media (max-width: 800px) {
     .content-wrapper {
       width: 100%;
-      margin-top: 50px; } }
+      margin-top: 60px;
+      margin-left: 0; } }
 
 .post-container {
   margin: 20px;

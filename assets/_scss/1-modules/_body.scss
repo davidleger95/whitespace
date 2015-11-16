@@ -4,8 +4,8 @@ body{
 
 .content-wrapper{
     
-    float: right;
-    
+    float: left;
+    margin-left: 280px;
     display: block;
     width: calc(100% - 290px);
     max-width: 1400px;
@@ -13,7 +13,8 @@ body{
     //margin: 0;
     @media(max-width: 800px){
         width: 100%;
-        margin-top: 50px;
+        margin-top: 60px;
+        margin-left: 0;
     }
     
     transition: width 0.5s ease-in-out;
