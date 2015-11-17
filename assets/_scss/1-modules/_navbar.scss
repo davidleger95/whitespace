@@ -10,15 +10,17 @@
     top: 0;
     bottom: 0;
     @media(max-width: 800px){
-        top: 40px;
+        top: 30px;
         left: -100%;
         padding: 0;
         width: 100%;
-        height: calc(100% - 50px);
+        height: calc(100% - 45px);
         
         
     }
-    
+    @media(max-height: 400px) and (max-width: 800px){
+        height: calc(100% - 30px);
+    }
     a{
         text-decoration: none;
         
@@ -46,6 +48,9 @@
         }
         h1{
             font-size: 5em;
+            @media(max-height: 600px) and (min-width: 800px){
+                display: none;
+            }
         }
 
         h1, h2{
@@ -60,16 +65,30 @@
         height: 1px;
         background: $accent;
         border: none;
+        @media(max-width: 800px), (max-height: 500px){
+            display: none;
+        }
     }
     
     ul{
         list-style: none;
         padding: 20px 0;
+        
     }
     
     .navbar-inner{
         color: $accent;
-        
+        @media(max-height: 400px) and (max-width: 800px){
+            margin-top: 40px;
+            width: calc(50% - 1px);
+            float: left;
+            
+            border-right: 1px solid $accent;
+        }
+        @media(max-height: 500px) and (min-width: 800px){
+            margin-top: -50px;
+            margin-bottom: -50px;
+        }
         .nav-item{
             padding: 20px 0;
         }
@@ -79,6 +98,11 @@
         display: block;
         //margin: auto;
         margin-left: calc(50% - 80px);
+        @media(max-height: 400px) and (max-width: 800px){
+            width: 50%;
+            float: right;
+            margin: calc(50vh - 100px) calc(25vw - 200px);
+        }
         .s-icon{
             display: block;
             float: left;
@@ -142,7 +166,9 @@
     color: white;
     background: $dark;
     text-align: center;
-    
+    h2{
+        margin-top: 0.35em;
+    }
     a{
         text-decoration: none;
     }

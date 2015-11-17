@@ -10,10 +10,22 @@ img: about.svg
 
 Whitespace is a blog about the art of web design and development, and the associated processes. It is based on the idea that software design and development is as much an art as it is a technical skill. I believe the following quote sums up this philosophy nicely:
 
-> "Technology alone is not enough. It’s technology married with the liberal arts, married with the humanities, that yields us the results that make our hearts sing." -Steve Jobs
+> "Technology alone is not enough. It’s technology married with the liberal arts, married with the humanities, that yields us the results that make our hearts sing." 
+
+>- - Steve Jobs
 
 In order to build something new and truely amazing, we must think in new and truely amazing ways. Everything starts with an idea and ends with the realization of that idea -- yes, it always comes full-circle. Repurposing what already exists to solve complex problems is how innovation persists and this calls for creativity. On whitespace, I will be discussing all the subtlties involved with building a product from a simple idea all the way to realization, and the mindset needed for developing creative thinking.
 
+ - List Item One
+ - List Item Two
+ - List Item Three
+   - sub item
+   - sub
+ 
+ 1. List Item One
+ 2. List Item Two
+ 3. List Item Three
+ 
 But why whitespace? The name whitespace was chosen because it is the part of code that doesn't produce any tangible results, yet it is nonetheless essential. Whitespace is what makes code readable and maintainable, but it goes unnoticed from the end-user's point of view. The term is also used in UI/UX design when referring to negative space on a canvas, and provides simplicity and cleanliness. This is where I draw inspiration for the name whitespace -- most of the work you will put into a project will go unnoticed, but it is all necessary to achieve the final result and produce a simple and clean solution.
 
 ---
