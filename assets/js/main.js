@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 // Randomizes the background color excluding darker tones.
 function bgColor(){
-    var randColor = '#'+(Math.random()*0xFFFFFF<<0x333333).toString(16);
+    var randColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     //console.log(randColor);
     $('body').css('background', randColor);
 }
