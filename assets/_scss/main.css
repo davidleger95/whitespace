@@ -753,4 +753,13 @@ body {
       .posts .posts-list .post-item .post-info .post-tags {
         margin-left: -5px; }
 
+/* line 1, /Users/David/Documents/whitespace/assets/_scss/1-modules/_quote.scss */
+.quote {
+  font-style: italic; }
+
+/* line 4, /Users/David/Documents/whitespace/assets/_scss/1-modules/_quote.scss */
+.quote-credit {
+  color: #E8E8E8;
+  text-align: right; }
+
 /*# sourceMappingURL=main.css.map */

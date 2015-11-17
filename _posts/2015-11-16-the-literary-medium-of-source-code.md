@@ -5,7 +5,7 @@ title:      The Literary Medium of Source Code
 subtitle:   Rethinking what education means to you
 author:     David Leger
 readTime:   11
-image:      _.png
+img:      post-img.svg
 
 categories: [programming, opinion]
 

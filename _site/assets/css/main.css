@@ -646,3 +646,12 @@ body {
         margin: 0; }
       .posts .posts-list .post-item .post-info .post-tags {
         margin-left: -5px; }
+
+.quote {
+  font-style: italic;
+  text-align: left; }
+
+.quote-credit {
+  color: #E8E8E8;
+  text-align: left;
+  margin-left: 4em; }

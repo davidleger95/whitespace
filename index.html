@@ -9,18 +9,8 @@ title: Home
     {% assign content = post.content %}
     <section class="post-container">
         <div class="post-header">
-            <img class="post-img" src="{{ site.baseurl }}/assets/img/post-img.svg" alt="Post Image Description" />
-            <ul class="post-tags">
-                {% for c in post.categories %}
-                <li class="tag {{c}}">{{ c }}</li>
-                {% endfor %}
-            </ul>
-            <h3 class="post-meta">{{ post.date | date: "%d %B, %Y" }} | {{ post.readTime }} minute read</h3>
-            <h2 class="post-title">{{ post.title }}</h2>
-        </div>
-        <div class="post-body">
-            {{ content | truncatewords: 100 }}
-            
+            <h2 class="post-title quote">"{{ post.title }}"</h2>
+            <h4 class="quote-credit">- David Leger</h4>
         </div>
     </section>
     
@@ -32,7 +22,7 @@ title: Home
             {% for post in site.posts | limit: 4 %}
             <a href="{{ site.baseurl }}{{post.url}}">
             <li class="post-item">
-                <img class="thumbnail" src="{{ site.baseurl }}/assets/img/post-img.svg" alt="thumbnail" />
+                <img class="thumbnail" src="{{ site.baseurl }}/assets/img/post/{{ post.img }}" alt="thumbnail" />
                 <div class="post-info">
                     <h3 class="post-meta">{{ post.date | date: "%d %B, %Y" }} | {{ post.readTime }} minute read</h3>
                     <h2 class="post-title">{{ post.title }}</h2>
