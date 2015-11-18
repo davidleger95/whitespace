@@ -5,7 +5,7 @@ title:      Education != School
 subtitle:   Rethinking what education means to you
 author:     David Leger
 readTime:   7
-image:      education-not-school.svg
+img:      education-not-school.svg
 
 categories: [education, opinion]
 tags:       [education, learning, school, knowledge]
