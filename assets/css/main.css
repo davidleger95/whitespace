@@ -691,21 +691,28 @@ body {
     .posts .posts-list {
       padding: 0 10px; } }
   .posts .posts-list .post-item {
+    position: relative;
     box-shadow: 0 0 20px #4A4A4A;
     background: white;
     width: 100%;
     margin-bottom: 10px; }
-    .posts .posts-list .post-item .thumbnail {
-      float: left;
-      width: 65px;
-      height: 65px;
+    .posts .posts-list .post-item .thumb-wrapper {
+      position: absolute;
+      height: 100%;
+      width: 75px;
       background: #4A4A4A;
-      padding: 10px;
-      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0; }
+    .posts .posts-list .post-item .thumbnail {
       position: relative;
-      margin-right: 10px; }
+      width: calc(100% - 20px);
+      height: calc(100% - 20px);
+      display: block;
+      padding: 10px; }
     .posts .posts-list .post-item .post-info {
-      padding-top: 10px;
+      padding: 10px 10px 0 10px;
+      margin-left: 75px;
       font-size: 0.8em; }
       @media (max-width: 800px) {
         .posts .posts-list .post-item .post-info {

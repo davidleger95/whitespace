@@ -22,7 +22,9 @@ title: Home
             {% for post in site.posts | limit: 4 %}
             <a href="{{ site.baseurl }}{{post.url}}">
             <li class="post-item">
-                <img class="thumbnail" src="{{ site.baseurl }}/assets/img/post/{{ post.img }}" alt="thumbnail" />
+                <div class="thumb-wrapper">
+                    <img class="thumbnail" src="{{ site.baseurl }}/assets/img/post/{{ post.img }}" alt="thumbnail" />
+                </div>
                 <div class="post-info">
                     <h3 class="post-meta">{{ post.date | date: "%d %B, %Y" }} | {{ post.readTime }} minute read</h3>
                     <h2 class="post-title">{{ post.title }}</h2>
