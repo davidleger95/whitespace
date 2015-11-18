@@ -18,6 +18,8 @@ In order to build something new and truely amazing, we must think in new and tru
  
 But why whitespace? The name whitespace was chosen because it is the part of code that doesn't produce any tangible results, yet it is nonetheless essential. Whitespace is what makes code readable and maintainable, but it goes unnoticed from the end-user's point of view. The term is also used in UI/UX design when referring to negative space on a canvas, and provides simplicity and cleanliness. This is where I draw inspiration for the name whitespace -- most of the work you will put into a project will go unnoticed, but it is all necessary to achieve the final result and produce a simple and clean solution.
 
+---
+
 ## What About the Content?
 
 I'll be posting new content every Tuesday (sometimes more often) about a variety of topics related to the IT industry (UI design, coding practices, new technologies, professionalism, problem solving, technology in education, etc). 
