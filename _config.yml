@@ -7,3 +7,4 @@ exclude: ["node_modules",
   "README.md"]
 
 baseurl: ''
+highlighter: pygments

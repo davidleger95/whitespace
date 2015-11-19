@@ -84,7 +84,7 @@ Wall, L. (1990). Black Perl. Usenet.
 
 ### Appendix A: “Black Perl” by Larry Wall
 
-```
+{% highlight perl %}
 BEFOREHAND: close door, each window & exit; wait until time.
     open spellbook, study, read (scan, select, tell us);
 write it, print the hex while each watches,
@@ -110,7 +110,7 @@ AFTERWARDS: tell nobody.
         sleep, sleep, die yourself,
         die at last
 # Larry Wall
-```
+{% endhighlight  %}
 
 ---
 
@@ -118,28 +118,28 @@ AFTERWARDS: tell nobody.
 
 #### “HelloWorld.c” by Brian Kernighan (C)
 
-```c
+{% highlight c %}
 #include <stdio.h>
 main( ) {
-	printf(“hello, world”);
+	printf("hello, world");
 	return 0;
 }
-```
+{% endhighlight  %}
 
 #### "HelloWorld.java" (Java)
 
-```java
+{% highlight java %}
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
 
-```
+{% endhighlight %}
 
-#### “helloWorld.html” (HTML)
+#### "helloWorld.html" (HTML)
 
-```
+{% highlight html %}
 <!DOCTYPE html>
 <html>
 	<head>
@@ -149,18 +149,18 @@ class HelloWorld {
 		<p>Hello World!</p>
 	</body>
 </html>
-```
+{% endhighlight %}
 
-#### “helloWorld.pl” (Perl)
+#### "helloWorld.pl" (Perl)
 
-```
-print “Hello World!\n”;
-```
+{% highlight perl %}
+print "Hello World!\n";
+{% endhighlight  %}
 
 ####“helloWorld.php” (PHP)
 
-```
+{% highlight php %}
 <?php
-	echo “Hello World!”;
+	echo "Hello World!";
 ?>
-```
+{% endhighlight  %}
