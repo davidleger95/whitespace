@@ -30,4 +30,4 @@ Stay up-to-date with everything by following whitespace on twitter [@0xfff_space
 
 ## Who am I?
 
-All the work that goes into whitespace is done me: David Leger. I built whitespace from start to finish -- designs, code, content, and marketing. To find out more about me, you can check out my personal site: [davidleger.me](davidleger.me).
+All the work that goes into whitespace is done me: David Leger. I built whitespace from start to finish -- designs, code, content, and marketing. To find out more about me, you can check out my personal site: [davidleger.me](http://www.davidleger.me).

@@ -20,7 +20,7 @@ tags:       [programming, code, skill, philosophy]
 
 ## The Difference Between a Good Programmer and a Great One
 
-As with anything in life, if we do something we want to do our best. Sometimes achieving our best potential is simply a matter of skill and other times, less apparently, mindset plays a role in allowing us to move beyond being just *good* and being truely great. This is in my opinion an essential truth which must be realized by programmers. Programming requires more than just knowledge or a certain skillset -- it also takes, as Travis Neilson describes it: "Grit, Perserverance, and ..." [check sourse].
+As with anything in life, if we do something we want to do our best. Sometimes achieving our best potential is simply a matter of skill and other times, less apparently, mindset plays a role in allowing us to move beyond being just *good* and being truely *great*. Mindset is what will keep you going when you're tired, when you want to give up. This is in my opinion an essential truth which must be realized by programmers. Programming requires more than just knowledge or a certain skillset -- it also takes, as Travis Neilson describes it: "Grit, Perserverance, and ..." [check sourse].
 
 
 ## Skill != Greatness
