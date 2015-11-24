@@ -1,0 +1,105 @@
+/*****************************************
+ *  Summing Numbers
+ *****************************************/
+
+// Performs a summation of a set of numbers and returns the result
+@function sum($list)
+    $result: 0 
+    @each $n in $list
+        $result: $result + $n
+    @return ($result)
+
+// end sum()
+
+/*****************************************
+ *  Factorials
+ *****************************************/
+
+// Performs a factorial of an integer and returns the result
+@function factorial($n)
+    $result: 1 
+    @for $i from 1 through $n
+        $result: $result * $i
+    @return ($result)
+
+// end factorial()
+
+/*****************************************
+ *  Sorting
+ *****************************************/
+
+// Sorts list of numbers using insertion sort algorithm.
+@function sort($list) 
+    @for $i from 1 through length($list) 
+        $curr: nth($list, $i)
+        $j: $i - 1
+
+        @while $j > 0 and nth($list, $j) > $curr
+            $list: set-nth($list, $j + 1, nth($list, $j))
+            $j: $j - 1
+
+        $list: set-nth($list, $j + 1, $curr)
+
+    @return $list
+// end sort()
+    
+/*****************************************
+ *  EVALUATING POLYNOMIALS
+ *****************************************/
+
+// Takes as parameters a base and an exponent and returns the exponential value
+@function exp($base, $exponent)
+    // reset value
+    $value: $base
+    // positive intergers get multiplied
+    @if $exponent > 1
+        @for $i from 2 through $exponent
+            $value: $value * $base
+    // negitive intergers get divided. A number divided by itself is 1
+    @if $exponent < 1
+        @for $i from 0 through -$exponent
+            $value: $value / $base
+        // return the last value written
+    @return ($value)
+    
+// end exp()
+
+
+/*****************************************
+ *  FINDING ROOTS WITH THE BISECTION METHOD
+ *****************************************/
+
+// Takes as parameters two signed values and returns a 
+// boolean true if the signs are the same and false if not
+@function samesign($a, $b)
+    $val: $a * $b
+    @if $val > 0
+        $val: true
+    @else
+        $val: false
+    @return ($val)
+// end samesign()
+
+// Takes as parameters a lower bound ($low) and a upper bound 
+// ($high) between which exists a root and calculates the root 
+// of func(), to a tolerance level ($tol), which must be defined 
+// before calling this function.
+@function bisect($low, $high, $tol)
+    $midpoint: "No root found."
+    // Check if root exists
+    @if not samesign(func($low), func($high))
+        $i: 1
+        $err: 1
+        // Bisect root until the tolerance level has been satisfied
+        @while $err > $tol
+            $i: $i + 1
+            $err: ($high - $low)/2.0
+            $midpoint: ($low + $high)/2.0
+            @if samesign(func($low), func($midpoint))
+                $low: $midpoint
+            @else
+                $high: $midpoint
+                
+    @return ($midpoint)
+// end bisect()
+

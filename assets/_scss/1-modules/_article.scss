@@ -63,6 +63,16 @@
             word-wrap: break-word;
         }
         
+        img{
+            display: block;
+            margin: 30px auto;
+            //width: 
+            max-width: 100%;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 0 10px $dark;
+        }
+        
         ul, ol{
             font-weight: 300;
             padding-left: 50px;
@@ -133,14 +143,22 @@
         color: white;
         
         &.education{
-            background: limegreen;
+            background: #61bd4f;
         }
-        
+        &.design{
+            background: #f2d600;
+        }
+        &.how-to{
+            background: #ffab4a;
+        }
         &.opinion{
-            background: $twitter;
+            background: #00c2e0;
+        }
+        &.professional{
+            background: #0079bf;
         }
         &.programming{
-            background: crimson;
+            background: #eb5a46;
         }
     }
 }

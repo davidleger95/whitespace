@@ -872,6 +872,13 @@ body {
       font-weight: 300;
       overflow-wrap: break-word;
       word-wrap: break-word; }
+    .post-container .post-body img {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #4A4A4A; }
     .post-container .post-body ul, .post-container .post-body ol {
       font-weight: 300;
       padding-left: 50px; }
@@ -918,11 +925,17 @@ body {
     float: left;
     color: white; }
     .post-tags .tag.education {
-      background: limegreen; }
+      background: #61bd4f; }
+    .post-tags .tag.design {
+      background: #f2d600; }
+    .post-tags .tag.how-to {
+      background: #ffab4a; }
     .post-tags .tag.opinion {
-      background: #4099FF; }
+      background: #00c2e0; }
+    .post-tags .tag.professional {
+      background: #0079bf; }
     .post-tags .tag.programming {
-      background: crimson; }
+      background: #eb5a46; }
 
 .posts a {
   text-decoration: none; }

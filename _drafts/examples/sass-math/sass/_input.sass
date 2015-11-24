@@ -1,0 +1,53 @@
+/*****************************************
+ *  USER INPUT
+ *****************************************/
+
+// View Setup
+$input: Input
+$result: Result
+
+// Summations
+$input: (1,2,3,4,5,6,7,8,9,10)
+$result: sum($input)
+
+$input: "sum(#{$input})"        // Give context for displaying input
+
+// Factorials
+$input: 10
+$result: factorial($input)
+
+$input: "Evaluate #{$input}!"   // Give context for displaying input
+
+// Sorting
+
+$input: (3,8,4,4,-5,2,12,0,1,-12)
+$result: sort($input)
+
+$input: "sort[#{$input}]"        // Give context for displaying input
+
+// Polynomials
+$x: 2
+$result: exp($x, 5) + $x - 1
+
+$input: "x^5 + x - 1, x=#{$x}"   // Reformatting the polynomial for display
+
+// Finding Roots with the Bisection Method
+
+// Function of which to find the root
+@function func($x)
+    @return (exp($x, 5) + $x - 1)
+
+$l: 0           // lower bound
+$u: 1           // upper bound
+$p: exp(10, -3) // percision
+
+$result: bisect($l, $u, $p)
+$f: func($result)
+
+// Formatting for display
+$input: "Root of f(x)= x^5 + x - 1 within #{$p} percision."
+$result: "(#{$result},#{$f})"
+
+
+
+//*****************************************

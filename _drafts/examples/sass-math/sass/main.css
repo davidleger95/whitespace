@@ -1,0 +1,68 @@
+/*****************************************
+ *  PROJECT     Sass Math
+ *  AUTHOR      David Leger
+ *  DATE        24 Nov, 2015
+ *  URL         http://0xfff.space/programming/design/how-to/2015/11/24/sass-math.html
+ *****************************************/
+/*****************************************
+ *  EVALUATING POLYNOMIALS
+ *****************************************/
+/*****************************************
+ *  FINDING ROOTS WITH THE BISECTION METHOD
+ *****************************************/
+/*****************************************
+ *  USER INPUT
+ *****************************************/
+/*****************************************
+ *  VIEW & DATA BINDING
+ *****************************************/
+/* line 11, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+head {
+  display: block; }
+  /* line 14, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+  head title {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: Palatino;
+    font-style: italic;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px #000; }
+    /* line 25, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+    head title:after {
+      display: block;
+      margin-top: 30px;
+      font-family: menlo;
+      font-style: normal;
+      font-size: 0.4em;
+      font-weight: 100;
+      letter-spacing: 0px;
+      text-shadow: none;
+      content: "whitespace"; }
+
+/* line 39, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+body {
+  padding-top: 100px;
+  background: #61bd4f;
+  color: white;
+  text-align: center;
+  font-family: menlo; }
+  /* line 47, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+  body:before {
+    display: block;
+    font-size: 30px;
+    content: "x^5 + x - 1"; }
+  /* line 53, /Users/David/Documents/whitespace/_drafts/examples/sass-math/sass/_view.sass */
+  body:after {
+    display: inline-block;
+    min-width: 200px;
+    margin: 1em 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 2px 5px #61774f inset;
+    font-size: 20px;
+    content: "0.75781"; }
+
+/*# sourceMappingURL=main.css.map */

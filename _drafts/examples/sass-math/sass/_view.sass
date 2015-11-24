@@ -1,0 +1,66 @@
+/*****************************************
+ *  VIEW & DATA BINDING
+ *****************************************/
+
+// Color Scheme for the view
+$primary: #61bd4f
+$accent: #699
+$dark: #61774f
+
+// Styles for the head and title
+head
+    display: block      // Makes the head element visible
+    
+    title
+        display: block  // Makes the title element visible
+        margin-top: 20px
+        
+        color: white
+        text-align: center
+        font-family: Palatino
+        font-style: italic
+        font-size: 60px
+        text-shadow: 2px 2px 5px #000
+        
+        &:after
+            display: block
+            margin-top: 30px
+            
+            font-family: menlo
+            font-style: normal
+            font-size: 0.4em
+            font-weight: 100
+            letter-spacing: 0px
+            text-shadow: none
+        
+            content: "whitespace"   // binds "whitespace" after the title
+
+// Define styles for the body
+body 
+    padding-top: 100px
+    background: $primary
+
+    color: white
+    text-align: center
+    font-family: menlo
+    
+    &:before
+        display: block
+        font-size: 30px
+        
+        content: "#{$input}"        // Binds the input before the body
+
+    &:after
+        display: inline-block
+        min-width: 200px
+        margin: 1em 0
+        padding: 10px
+        border-radius: 10px
+        background: rgba(white, 0.35)
+        box-shadow: 0 2px 5px $dark inset
+
+        font-size: 20px
+
+        content: "#{$result}"       // Binds the result after the body
+
+//***************************************
