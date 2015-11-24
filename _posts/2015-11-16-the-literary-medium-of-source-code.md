@@ -2,7 +2,7 @@
 layout:     posts
 
 title:      The Literary Medium of Source Code
-subtitle:   Rethinking what education means to you
+subtitle:   Is code a form of literary work?
 author:     David Leger
 readTime:   11
 img:      code-literature.svg

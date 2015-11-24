@@ -2,7 +2,7 @@
 layout:     posts
 
 title:      Education != School
-subtitle:   Rethinking what education means to you
+description: Rethinking what education means to you.
 author:     David Leger
 readTime:   7
 img:      education-not-school.svg
