@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
+        <meta property="og:site_name" content="whitespace"/>
         <meta property="og:title" content="Home" />
         <meta property="og:type" content="article" />
+        <meta property="fb:app_id" content="993574670663995" />
         <meta property="og:url" content="http://0xfff.space/index.html" />
         <meta property="og:description" content="" />
         <meta property="og:image" content="/assets/img/post/" />
@@ -19,6 +21,26 @@
         <!--link rel="stylesheet" href="https://raw.githubusercontent.com/madhur/madhur.github.com/master/files/css/syntax.css"-->
     </head>
     <body>
+        <!-- Facebook Integration -->
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '993574670663995',
+              xfbml      : true,
+              version    : 'v2.5'
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- END Facebook Integration -->
+        
         <!-- NAVBAR -->
 <div class="navbar-wrapper">
     <nav class="navbar">
