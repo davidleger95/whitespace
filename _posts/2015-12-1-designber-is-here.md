@@ -26,6 +26,10 @@ You can watch the first of these design videos below. In this one, I redesign th
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="100%" height="auto" src="https://www.youtube.com/embed/biPb4LDXutk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
+![Developer Tea Website Design]({{ site.baseurl }}/assets/img/post/developer-tea.jpg)
+
+[Developer Tea Website Design (FULL IMAGE)]({{ site.baseurl }}/assets/img/post/developer-tea.jpg)
+
 Remember that I'll still be posting new content every Tuesday as usual, but since it's Designber I may be posting more often! If there is anything this month you'd like me to cover or just something interesting you want to show me (or if you just want to say hi), just let me know with a comment. I'm always happy to respond to you! :)
 
 Happy Designber, everyone!
