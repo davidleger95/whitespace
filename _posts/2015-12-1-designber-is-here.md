@@ -12,7 +12,7 @@ categories: [design]
 
 ---
 
-Well, the day has finally come. It's the 1st of December! Here at whitespace, we're calling this month Designber. Designber means that I'm spending the entire month producing content talking about various topics related to UI/UX design.
+Well, the day has finally come. It's the 1st of December! Here at whitespace, we're calling this month Designber (yes, I know it's not the best name...). Designber means that I'm spending the entire month producing content talking about various topics related to UI/UX design.
 
 > UI and UX should be considered in everything you create that is going to be seen by another person.
 
