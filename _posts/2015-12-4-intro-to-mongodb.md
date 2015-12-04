@@ -4,7 +4,7 @@ layout:     posts
 title:      Introduction to MongoDB
 subtitle:   A quick guide for people familar with SQl who want to dive into the realm of NoSQL databases.
 author:     David Leger
-readTime:   2
+readTime:   6
 img:        mongo.png
 ogImg:      mongo.png
 
