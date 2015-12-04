@@ -14,10 +14,9 @@ categories: [programming, how-to]
 
 Today I gave a presentation about MongoDB to my INFO1103: Introduction to Databases course. Since the course focuses mostly on SQl, I built the presentation within that context. If you want to get started with MongoDB here are a few resources:
 
-- Head over to the MongoDB [Drivers Page](https://docs.mongodb.org/ecosystem/drivers/) to download the resources for your perferred language.
-- Learn MongoDB through one of several FREE 7-week courses at [Mongo University](https://university.mongodb.com/courses). There are courses for Node.js, Java, Python, and C#.
-
-- And now that you're able to use MongoDB, browse the [documentation](https://docs.mongodb.org/manual/) to hone your skills and become an expert!
+1. Head over to the MongoDB [Drivers Page](https://docs.mongodb.org/ecosystem/drivers/) to download the resources for your perferred language.
+2. Then learn MongoDB through one of several FREE 7-week courses at [Mongo University](https://university.mongodb.com/courses). There are courses for Node.js, Java, Python, and C#.
+3. And now that you're able to use MongoDB, browse the [documentation](https://docs.mongodb.org/manual/) to hone your skills and become an expert!
 
 I plan to make a video on this topic in the future, but for now you can see the visuals of the presentation below. 
 
