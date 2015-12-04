@@ -8,7 +8,7 @@ readTime:   2
 img:        mongo.png
 ogImg:      mongo.png
 
-categories: [programming]
+categories: [programming, how-to]
 
 ---
 
