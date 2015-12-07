@@ -15,7 +15,6 @@ tags:       [education, learning, school, knowledge]
 In this article I decided to tackle a more general topic; and it is one of the reasons I decided to start whitespace: Formal Education.
 
 Everyone goes through the public school system. It's just something you gotta do. And as with all things mandatory people (myself included) complain about it. So the word education often has the negative connotation of being boring or stressful.
-School is the biggest obstacle getting in the way of my education.
 
 > School is the biggest obstacle standing between me and my education.
 
