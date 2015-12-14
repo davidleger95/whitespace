@@ -5,7 +5,7 @@ title:      Tim Hortons Double Double Visa Re-Design
 subtitle:   In this design I rethink the UI and UX of the Tim Hortons Double Double Visa credit card.
 author:     David Leger
 readTime:   3
-img:        visa.png
+img:        visa.svg
 ogImg:      visa.png
 
 categories: [video, design, how-to]
