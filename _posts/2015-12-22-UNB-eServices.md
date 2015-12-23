@@ -19,7 +19,7 @@ categories: [video, design]
 
 In week four of Designber, I continued the trend from last week by redesigning UNB eServices. eServices has many use cases so I decided to narrow my scope and focus on just a single aspect of the application, which is Term Marks. I chose to focus on this part of eServices because it is the most widely used.
 
-You'll also notice that I left a lot of tabs out of the new design. This was not by accident. I chose to do this because most of those tabs could be condensed into one of three categories: Academic, Finalcial, and Personal.
+You'll also notice that I left a lot of tabs out of the new design. This was not by accident. I chose to do this because most of those tabs could be condensed into one of three categories: Academic, Financial, and Personal.
 
 ## Current Design of eServices
 
