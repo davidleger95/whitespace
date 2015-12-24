@@ -8,18 +8,18 @@
 
 $(document).ready(function(){
 
-    bgColor();
+    //bgColor();
     mobileNav();
     randomQuote();
 });
-
+/*
 // Randomizes the background color excluding darker tones.
 function bgColor(){
     var randColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     //console.log(randColor);
     $('body').css('background', randColor);
 }
-
+*/
 function mobileNav(){
     $('.menu-icon').on('click', function(){
         $('.navbar-wrapper, .menu-icon span').toggleClass('nav-active');

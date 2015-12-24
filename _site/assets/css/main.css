@@ -810,7 +810,7 @@ a {
   left: 0; }
 
 body {
-  background: #4099FF; }
+  background-image: url(../img/bg.png); }
 
 .content-wrapper {
   float: left;

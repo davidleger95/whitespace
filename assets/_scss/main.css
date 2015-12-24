@@ -956,7 +956,7 @@ a {
 
 /* line 1, /Users/David/Documents/whitespace/assets/_scss/1-modules/_body.scss */
 body {
-  background: #4099FF; }
+  background-image: url(../img/bg.png); }
 
 /* line 5, /Users/David/Documents/whitespace/assets/_scss/1-modules/_body.scss */
 .content-wrapper {
