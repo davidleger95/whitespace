@@ -12,9 +12,9 @@ categories: [video, design]
 
 ---
 
-<span style="color: red">The video didn't upload properly so it glitches around 1:26. You can skip ahead in the video to see the design but there is no sound for the rest of the video. I'm working to fix this ASAP.</span>
+<span style="color: green">The video is now fixed! You can watch it with sound now and hear my commentary.</span>
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="100%" height="auto" src="https://www.youtube.com/embed/K2ptCvUg9ZI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="100%" height="auto" src="https://www.youtube.com/embed/2vdCUWc5TsQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 In week four of Designber, I continued the trend from last week by redesigning UNB eServices. eServices has many use cases so I decided to narrow my scope and focus on just a single aspect of the application, which is Term Marks. I chose to focus on this part of eServices because it is the most widely used.
