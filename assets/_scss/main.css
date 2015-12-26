@@ -994,45 +994,49 @@ body {
       clear: both;
       display: block;
       margin: auto;
-      height: 125px; }
+      min-height: 100px;
+      min-width: 125px;
+      max-height: 150px;
+      max-width: 200px; }
       @media (max-width: 800px) {
         /* line 15, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
         .post-container .post-header img {
-          height: 80px; } }
-    /* line 25, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+          height: 80px;
+          max-width: 100px; } }
+    /* line 31, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-header .post-meta {
       color: #999999;
       font-size: 1em; }
-    /* line 30, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 36, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-header .post-title {
       font-size: 1.8em; }
-  /* line 36, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+  /* line 42, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
   .post-container .post-body {
     padding: 30px;
     background: white; }
     @media (max-width: 800px) {
-      /* line 36, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 42, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .post-container .post-body {
         padding: 15px; } }
-    /* line 43, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 49, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body h1, .post-container .post-body h2, .post-container .post-body h3, .post-container .post-body h4, .post-container .post-body h5, .post-container .post-body h6 {
       margin-top: 1.5em; }
-    /* line 47, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 53, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body h4, .post-container .post-body h5, .post-container .post-body h6 {
       font-weight: 500; }
-    /* line 51, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 57, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body hr {
       margin: 30px 0;
       border: none;
       background: #E8E8E8;
       height: 1px; }
-    /* line 58, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 64, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body p {
       line-height: 1.6em;
       font-weight: 300;
       overflow-wrap: break-word;
       word-wrap: break-word; }
-    /* line 66, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 72, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body img {
       display: block;
       margin: 30px auto;
@@ -1040,56 +1044,56 @@ body {
       text-align: center;
       border-radius: 5px;
       box-shadow: 0 0 10px #4A4A4A; }
-    /* line 76, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 82, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body ul, .post-container .post-body ol {
       font-weight: 300;
       padding-left: 50px; }
-    /* line 81, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 87, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body ul {
       list-style: none;
       padding-left: 30px; }
-      /* line 84, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 90, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .post-container .post-body ul li:before {
         content: '- '; }
-    /* line 89, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 95, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body pre {
       background: rgba(232, 232, 232, 0.5);
       font-family: Menlo;
       padding: 15px; }
-    /* line 97, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 103, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-container .post-body blockquote {
       font-size: 1.5em;
       font-style: italic; }
       @media (max-width: 800px) {
-        /* line 97, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+        /* line 103, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
         .post-container .post-body blockquote {
           margin: 10px; } }
-      /* line 105, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 111, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .post-container .post-body blockquote p {
         color: #999999;
         margin-bottom: 10px; }
-      /* line 110, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 116, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .post-container .post-body blockquote ul {
         margin: 0;
         padding-left: 40px; }
-        /* line 113, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+        /* line 119, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
         .post-container .post-body blockquote ul li:last-child {
           display: inline-block;
           font-size: 0.8em;
           list-style: none;
           color: #999999; }
-          /* line 118, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+          /* line 124, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
           .post-container .post-body blockquote ul li:last-child:before {
             content: ''; }
 
-/* line 129, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+/* line 135, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
 .post-tags {
   clear: both;
   display: inline-block;
   list-style: none;
   padding: 0;
   font-size: 0.8em; }
-  /* line 136, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+  /* line 142, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
   .post-tags .tag {
     background: #FF0066;
     margin: 5px;
@@ -1097,30 +1101,30 @@ body {
     width: auto;
     float: left;
     color: white; }
-    /* line 145, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 151, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.education {
       background: #61bd4f; }
-    /* line 148, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 154, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.design {
       background: #f2d600; }
-    /* line 151, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 157, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.how-to {
       background: #ffab4a; }
-    /* line 154, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 160, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.opinion {
       background: #00c2e0; }
-    /* line 157, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 163, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.professional {
       background: #0079bf; }
-    /* line 160, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 166, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .post-tags .tag.programming {
       background: #eb5a46; }
 
-/* line 167, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+/* line 173, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
 .posts a {
   text-decoration: none; }
 
-/* line 170, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+/* line 176, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
 .posts .title-bar {
   margin: 20px;
   padding: 5px 20px;
@@ -1128,26 +1132,26 @@ body {
   color: white;
   box-shadow: 0 0 20px #4A4A4A; }
   @media (max-width: 800px) {
-    /* line 170, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 176, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .posts .title-bar {
       margin: 20px 0px; } }
 
-/* line 182, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+/* line 188, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
 .posts .posts-list {
   padding: 0 20px;
   list-style: none; }
   @media (max-width: 800px) {
-    /* line 182, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 188, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .posts .posts-list {
       padding: 0 10px; } }
-  /* line 190, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+  /* line 196, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
   .posts .posts-list .post-item {
     position: relative;
     box-shadow: 0 0 20px #4A4A4A;
     background: white;
     width: 100%;
     margin-bottom: 10px; }
-    /* line 197, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 203, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .posts .posts-list .post-item .thumb-wrapper {
       position: absolute;
       height: 100%;
@@ -1156,31 +1160,33 @@ body {
       top: 0;
       bottom: 0;
       left: 0; }
-    /* line 206, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+    /* line 212, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .posts .posts-list .post-item .thumbnail {
       position: relative;
-      width: calc(100% - 20px);
-      height: calc(100% - 20px);
+      height: 100%;
+      max-width: calc(100% - 20px);
+      max-height: calc(100% - 20px);
       display: block;
-      padding: 10px; }
-    /* line 214, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      padding: 10px;
+      margin: auto; }
+    /* line 222, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
     .posts .posts-list .post-item .post-info {
       padding: 10px 10px 0 10px;
       margin-left: 75px;
       font-size: 0.8em; }
       @media (max-width: 800px) {
-        /* line 214, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+        /* line 222, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
         .posts .posts-list .post-item .post-info {
           font-size: 0.65em; } }
-      /* line 222, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 230, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .posts .posts-list .post-item .post-info .post-meta {
         font-size: 1em;
         color: #999999;
         margin: 0; }
-      /* line 227, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 235, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .posts .posts-list .post-item .post-info .post-title {
         margin: 0; }
-      /* line 230, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
+      /* line 238, /Users/David/Documents/whitespace/assets/_scss/1-modules/_article.scss */
       .posts .posts-list .post-item .post-info .post-tags {
         margin-left: -5px; }
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="272px" height="178px" viewBox="0 0 272 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 45 + Submit! + Rectangle 46</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="512-copy-3" sketch:type="MSArtboardGroup" transform="translate(-120.000000, -215.000000)">
+            <g id="Rectangle-45-+-Submit!-+-Rectangle-46" sketch:type="MSLayerGroup" transform="translate(120.000000, 215.000000)">
+                <rect id="Rectangle-45" fill="#4DCA42" sketch:type="MSShapeGroup" x="0" y="0" width="272" height="82" rx="41"></rect>
+                <text id="Submit!" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="48" font-weight="bold" sketch:alignment="middle" fill="#4A4A4A">
+                    <tspan x="48.472" y="57">Submit!</tspan>
+                </text>
+                <path d="M214.717854,130.315517 L192.421769,152.847458 L188,69 L253,124.754237 L226.621542,126.076467 L249.477728,164.414134 L238.847312,171 L214.717854,130.315517 Z" id="Rectangle-46" stroke="#FFFFFF" stroke-width="5" fill="#000000" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
