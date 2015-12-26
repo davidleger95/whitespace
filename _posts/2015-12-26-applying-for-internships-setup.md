@@ -6,7 +6,7 @@ subtitle:   In this post I am developing and documenting my process for getting 
 author:     David Leger
 readTime:   4
 img:        internship.svg
-ogImg:      internship.jpg
+ogImg:      internship.png
 
 categories: [professional development, design]
 
