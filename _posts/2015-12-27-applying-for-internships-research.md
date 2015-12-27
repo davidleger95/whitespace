@@ -146,6 +146,8 @@ I have interviewed with Blue Spurs in the past and, from my interview, I think t
 
 I became interested in working at Cvent in Fredericton when I met their Director of Product Development, [Brian Dunphy](https://www.linkedin.com/in/briandunphy), and we had an in-depth conversation about UX/UI and front-end development. Sharing a passion for building a great product is what interests me most about this prospect. Cvent has a great product that is used my people all over the world and I would love to have a part in moving it forward. However, the real value in working with Cvent would be learning from Brian's experience in the industry through working with his team. Being an accomplished entrepreneur and a co-founder of Radian6, Brian Dunphy is a leader in New Brunswick's IT industry. So working with him would be both a priviledge and an excellent opportunity to learn from the best.
 
+***
+
 ### Other Prospects
 
 I have a few other prospects for internships in summer 2016 through connections I have with people in the industry. However, in this process I'm focusing on companies which have not yet made me a firm offer. I will still be keeping current offers in mind in the following steps of my process, thinking about what actions led to those employment offers and how I can incorporate that success in my application process. Also, when my UNB's co-op job bank opens up for summer 2016 jobs, I'm sure there will be other jobs which will interest me, which I will also keep in mind.
