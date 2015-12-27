@@ -22,7 +22,7 @@ categories: [professional development, design]
 
 **PREVIOUS PART:** [Applying for Internships (Part 0): Developing a Process]({{page.previous.url}})
 
-This first step is essential in figuring out what internships exist that fit my criteria. What I'm looking for in an internship is the opportunity to work on inspiring products or services, to focus on learning new and interesting things, and to develop meaningful relationships with people in the technology industry. On the technical side of things, my preference would be working with web-based technologies including AngularJS, Node.js, MongoDB; or with hardware in an *Internet of Things* context. Knowing what internships I will be applying for will help me shape my solution to the subsequent steps. 
+This first step is essential in figuring out what internships exist that fit my criteria. What I'm looking for in an internship is the opportunity to work on inspiring products or services, to focus on learning new and interesting things, and to develop meaningful relationships with people in the technology industry. On the technical side of things, my preference would be working with web-based technologies including AngularJS, Node.js, MongoDB; or with hardware in an *Internet of Things* context. Knowing what internships I will be applying for will help shape my solution to the subsequent steps. 
 
 I will be applying for internships locally (in Fredericton, New Brunswick), but also abroad. Although there are many great employers where I live, there are only a few that have really inspired me. So for that reason I decided not to limit myself to local internships.
 
