@@ -49,8 +49,10 @@ I started by laying out the initial steps of my process on a [Trello](http://www
 ![Initial setup of my "Co-op Summer 2016" Trello Board]({{ site.baseurl }}/assets/img/post/internship-trello-board-setup.png)
 
 
-Trello is like a supercharged to-do list. I often use Trello to document and manage my workflow for many different types projects. I even use it to ensure I get school assignments and projects completed on time. It's a versitle tools which can help you manage many areas of both your personal and professional life. 
+Trello is like a supercharged to-do list. I often use Trello to document and manage my workflow for many different types projects. I even use it to ensure I get school assignments and projects completed on time. It's a versatile tools which can help you manage many areas of both your personal and professional life. 
 
 ## What's Next?
 
 Now that we have the process outlined in Trello, we can tackle each of the four milestone tasks individually. In the next post, I'll explain more specifically the criteria for my research and discuss the results.
+
+**NEXT PART:** [Applying for Internships (Part 1): Research]({{page.next.url}})
