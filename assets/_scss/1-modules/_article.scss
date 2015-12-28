@@ -126,6 +126,23 @@
             }
             
         }
+        
+        table{
+            margin: auto;
+            //border: 1px solid black;
+            overflow-x: auto;
+            
+            tr{
+                border-bottom: 1px solid black;
+                
+                td, th{
+                    padding: 5px 10px;
+                    margin-left: 20px;
+                    
+                }
+            }
+            
+        }
     }
     
     

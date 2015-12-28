@@ -914,6 +914,14 @@ body {
           color: #999999; }
           .post-container .post-body blockquote ul li:last-child:before {
             content: ''; }
+    .post-container .post-body table {
+      margin: auto;
+      overflow-x: auto; }
+      .post-container .post-body table tr {
+        border-bottom: 1px solid black; }
+        .post-container .post-body table tr td, .post-container .post-body table tr th {
+          padding: 5px 10px;
+          margin-left: 20px; }
 
 .post-tags {
   clear: both;

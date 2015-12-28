@@ -2,7 +2,7 @@
 layout:     posts
 
 title:      "Applying for Internships (Part 0): Developing a Process"
-subtitle:   In this post I am developing and documenting my process for getting the internship I want in Summer 2016.
+description: In this post I am developing and documenting my process for getting the internship I want in Summer 2016.
 author:     David Leger
 readTime:   4
 img:        internship.svg
