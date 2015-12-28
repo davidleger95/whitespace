@@ -76,7 +76,7 @@ With these measures of success and availability of resources in mind, I added an
 
 ## Origami Resume
 
-<img class="half-img" alt="Origami Resume Folded" src="{{ site.baseurl }}/assets/img/post/origami-resume.jpg" />
+<img class="half-img" alt="Origami Resume Folded" src="{{ site.baseurl }}/assets/img/post/origami-resume.JPG" />
 <img class="half-img" alt="Origami Resume Flat" src="{{ site.baseurl }}/assets/img/post/origami-resume-flat.png" />
 
 To complement my traditional resume, I created an origami resume. This version of my resume was intended to solidify connections made in person at conferences, career fairs, and other networking events. It's power is in its uniqueness. While events provide a great opportunities to meet dozens of people in a particular field of work, the trade-off is that the connections are often weak and easily forgotten. If a company representative goes to a conference and returns to their office with 20 business cards from people they met, all with "Software Developer" as a title, these connections are almost meaningless. Nothing about *your* business card stands out and when an opening comes up at that company, it's a lottery of who gets an offer.
