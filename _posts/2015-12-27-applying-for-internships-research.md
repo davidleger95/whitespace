@@ -17,6 +17,10 @@ categories: [professional development, design]
         box-shadow: 0 0 0 white !important;
         max-width: 400px !important;
         max-height: 150px;
+        
+        @media(max-width: 800px){
+            max-width: 100% !important;
+        }
     }
 </style>
 
@@ -160,4 +164,4 @@ I have a few other prospects for internships in summer 2016 through connections 
 
 Now that I have an idea of what internships I'm interested in, the next step is to audit my current resume and take note of what's out-of-date, what's missing, and what needs improvement. In the next part I'll do an analysis of the results of auditing my resume.
 
-
+**NEXT PART:** [Applying for Internships (Part 1): Auditing my Current Resume]({{page.next.url}})
