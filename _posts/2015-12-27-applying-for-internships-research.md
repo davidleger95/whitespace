@@ -19,7 +19,7 @@ categories: [professional development, design]
         max-height: 150px;
         
         @media(max-width: 800px){
-            max-width: 100% !important;
+            max-width: 300px !important;
         }
     }
 </style>
