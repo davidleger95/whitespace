@@ -4,7 +4,7 @@ layout:     posts
 title:      "Applying for Internships (Part 2): Auditing my Current Resume"
 description: In this post, I perform an audit of my current resume. This will set the stage for designing my new resume which will be part of my job application package I will be using to apply for internships for summer 2016.
 author:     David Leger
-readTime:   10
+readTime:   7
 img:        audit.svg
 ogImg:      audit.png
 
