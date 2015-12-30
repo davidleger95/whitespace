@@ -29,6 +29,10 @@ When finished, my job application package will consist of the following componen
 - Video biography
 - Website
 
+Laying these components out in a user flow diagram helps visualize how employers will experience the job application package from making the initial connection through to vaious endpoints. Enpoints for my job application package is any document which contains a call-to-action (CTA). CTAs allow employers to contact me directly through a form, email, social network, or phone call. So my intention is for every component to be an endpoint so an employer can contact me at any point in their journey through my application package.
+
+![Job Application Package user flow diagram.]({{ site.baseurl }}/assets/img/post/application-package-user-flow.jpg)
+
 The cover letter and single-page resume are the only two components that are absolutely neccesary for every job I'm applying for. Various sections of the long-form resume and individual case studies can be either included or omitted based on how relevant they are a particular job. Since the jobs I'm applying for all have online applications, I will be omiting the origami resume and the business card.  The video biography is something that I'm considering but it probably won't be part of my job application package for a little while as it's going to take a lot more planning than time will permit. The website will be the last component I create and it will act as a digital aggregation of all components in the job application package.
 
 I decided to start with the single-page resume because it is also sort of like a table of contents for the rest of the components I will be designing. So by designing this first, I can use it as an outline while designing the other components.
