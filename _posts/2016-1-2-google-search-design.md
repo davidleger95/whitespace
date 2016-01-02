@@ -31,3 +31,11 @@ If I were redesigning the Google search results page as a designer at Google, I 
 ![Google Search Results Page]({{ site.baseurl }}/assets/img/post/google-search.jpg)
 
 [Google Search Results Page[FULL IMAGE]]({{ site.baseurl }}/assets/img/post/google-search.jpg)
+
+***
+
+## Mackenzie Child's Redesign of the Google Search Page
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="100%" height="auto" src="https://www.youtube.com/embed/YpEvWM9c-zY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
