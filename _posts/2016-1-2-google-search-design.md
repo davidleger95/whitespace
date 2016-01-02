@@ -4,7 +4,7 @@ layout:     posts
 title:      Google Search Results Page
 subtitle:   In this design, I joined Mackenzie Child (@mackenziechild) in his Daily Design series, and redesigned the Google search results page.
 author:     David Leger
-readTime:   3
+readTime:   2
 img:        google-search.svg
 ogImg:      google-search.png
 
