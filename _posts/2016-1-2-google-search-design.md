@@ -6,7 +6,7 @@ subtitle:   In this design, I joined Mackenzie Child (@mackenziechild) in his Da
 author:     David Leger
 readTime:   2
 img:        google-search.svg
-ogImg:      google-search.png
+ogImg:      google-design.png
 
 categories: [video, design]
 
