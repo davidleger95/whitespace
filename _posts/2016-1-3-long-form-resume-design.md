@@ -4,7 +4,7 @@ layout:     posts
 title:      "Applying for Internships (Part 4): Designing a Long-Form Resume"
 description: In part 4 I continue designing components for my job application package. Using the design completed in part 3 as a style guide, I designed my long-form resume, which gives a more detailed description of my experience and career objectives.
 author:     David Leger
-readTime:   7
+readTime:   9
 img:        long-resume.svg
 ogImg:      long-resume.png
 
