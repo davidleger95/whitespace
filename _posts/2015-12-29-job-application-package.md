@@ -1,7 +1,7 @@
 ---
 layout:     posts
 
-title:      "Applying for Internships (Part 3): Designing a Job Application Package (Single-Page Resume)"
+title:      "Applying for Internships (Part 3): Designing a Single-Page Resume"
 description: Now comes the stage in which I break ground and begin designing my job application package.
 author:     David Leger
 readTime:   7
@@ -100,3 +100,4 @@ From creating this design I learned that empathy for your audience is essential 
 
 With this component of the job application package complete, it should now be easier to design the other components following the same theme. In the next post I'll be designing the long-form resume which will elaborate on the individual parts of the single-page resume.
 
+**NEXT PART:** [Applying for Internships (Part 4): Designing a Long-Form]({{page.next.url}})

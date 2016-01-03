@@ -96,3 +96,5 @@ This leaves the door open to developing a digital alternative to the origami res
 ![Trello Board with Audit done.]({{ site.baseurl }}/assets/img/post/internship-trello-board-audit.png)
 
 Stage 2 is now complete! The next stage is designing a solution. This will be the largest stage of the project and would be difficult to approach without first doing research and an audit of the current solution. The work done in these first two stages will constrain my design in the next stage and guide decision making in order to arrive at a successful solution.
+
+**NEXT PART:** [Applying for Internships (Part 3): Designing a Single-Page Resume]({{page.next.url}})
