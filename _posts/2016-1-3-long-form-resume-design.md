@@ -16,7 +16,9 @@ categories: [professional development, design]
 
 Picking up where I left off in the previous part, this time I designed my long-form resume. Although the single page resume is great for emplyers to get a quick glimpse of my skills, interests, and experience, it doesn't give much context. So the long-form resume is for employers who might want to learn a little bit more about a particular item on my resume.
 
-You can see the completed design here: [Long-Form Resume [PDF]]({{ site.baseurl }}/assets/files/long-form-resume-draft.pdf)
+<object data="{{ site.baseurl }}/assets/files/long-form-resume-draft.pdf" type="application/pdf" width="100%" height="800px" style="max-width: 740px; margin: auto; display: block; box-shadow: 0 0 5px rgba(0,0,0, 0.5)"></object>
+
+[Long-Form Resume [PDF]]({{ site.baseurl }}/assets/files/long-form-resume-draft.pdf)
 
 I'm still in the job application package design stage of this project. There were some minor setbacks in part 3 which has extended my timeline by a couple days. Also, setting the timeline before the deliverables were defined was a bad idea. How could I have been able to set a timeline without deliverables? It makes perfect sense now that I think about it, but sometimes with larger-scale projects, some small but important things get neglected. It's all part of the learning experinece though and something to keep in mind for my next project.
 
