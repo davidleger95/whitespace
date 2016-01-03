@@ -16,7 +16,7 @@ categories: [professional development, design]
 
 Picking up where I left off in the previous part, this time I designed my long-form resume. Although the single page resume is great for emplyers to get a quick glimpse of my skills, interests, and experience, it doesn't give much context. So the long-form resume is for employers who might want to learn a little bit more about a particular item on my resume.
 
-<object data="{{ site.baseurl }}/assets/files/long-form-resume-draft.pdf" type="application/pdf" width="100%" height="800px" style="max-width: 740px; margin: auto; display: block; box-shadow: 0 0 5px rgba(0,0,0, 0.5)"></object>
+<object data="{{ site.baseurl }}/assets/files/long-form-resume-draft.pdf" type="application/pdf" width="100%" height="100%" style="position: relative; max-width: 740px; min-height:600px; margin: auto; display: block; box-shadow: 0 0 5px rgba(0,0,0, 0.5)"></object>
 
 [Long-Form Resume [PDF]]({{ site.baseurl }}/assets/files/long-form-resume-draft.pdf)
 
