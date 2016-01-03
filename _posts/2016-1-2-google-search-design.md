@@ -2,7 +2,7 @@
 layout:     posts
 
 title:      Google Search Results Page Redesign
-subtitle:   In this design, I joined Mackenzie Child (@mackenziechild) in his Daily Design series, and redesigned the Google search results page.
+description: In this design, I joined Mackenzie Child (@mackenziechild) in his Daily Design series, and redesigned the Google search results page.
 author:     David Leger
 readTime:   2
 img:        google-search.svg
