@@ -12,7 +12,6 @@ categories: [video, design]
 
 ---
 
-<span style="color: green">The video is now fixed! You can watch it with sound now and hear my commentary.</span>
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="100%" height="auto" src="https://www.youtube.com/embed/2vdCUWc5TsQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -40,6 +39,29 @@ When I first started the redesign, I wanted it to have a minimalist look and fee
 ## My Second Attempt
 
 I came back to the design with all the failures of my first attempt in mind. This helped me avoid the pitfalls of my first design and I was finally able to create something I liked.
+
+A note about the menu bar: You'll notice I only have three tabs (Academic, Financial, and Personal) as opposed to the original which had several more. The decision to cut back on the number of tabs was made to better catagorize different functionality. I found that all the current tabs could be reduced to these three catagories as follows:
+
+Academic includes:
+
+- Academic
+- Library
+- ETD (Electronic Theses & Dissertations)
+
+Financial includes: 
+
+- Financial
+- Employees
+
+Personal includes:
+
+- Personal
+- Voting
+- Email
+- Residence
+- Computing
+- Logout
+
 
 ![My UNB eServices Redesign](/assets/img/post/eServices.jpg)
 
