@@ -30,3 +30,4 @@ I'm still in the job application package design stage of this project. There wer
 
 In the next part, I'll be designing the standard business card, and a cover letter components for the job application package. 
 
+**NEXT PART:** [Applying for Internships (Part 5): Designing a Cover Letter & Business Card]({{page.next.url}})
