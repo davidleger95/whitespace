@@ -20,8 +20,7 @@ Where these two compontents of my job application package differ, is in length a
 
 ![Business Card]({{ site.baseurl }}/assets/files/business-card.png)
 
-A cover letter is no doubt longer than a business card and as opposed to being stand-alone, it is usually accompanied by a resume (either single-page, long-form, or both). It also has the opposite implication of a business card. A business card is passive and just provides information as an optional call-to-action. A cover letter is a bit more forward; it provokes action by the reader. It may direct the reader to to an item an attached resume or call for a response from the reader. For the cover letter I decided to just make a template and later I will write unique cover letters for each individual job I apply for.
-
+A cover letter is no doubt longer than a business card and as opposed to being stand-alone, it is usually accompanied by a resume (either single-page, long-form, or both). It also has the opposite implication of a business card. A business card is passive and just provides information as an optional call-to-action. A cover letter is a bit more forward; it provokes action by the reader. It may direct the reader to to an item an attached resume or call for a response from the reader. For the cover letter I decided to just make a template and later in the final stage of this project I will write unique cover letters for each individual job application.
 
 ![Cover Letter]({{ site.baseurl }}/assets/files/cover-letter.pdf)
 
