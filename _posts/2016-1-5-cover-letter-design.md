@@ -4,7 +4,7 @@ layout:     posts
 title:      "Applying for Internships (Part 5): Designing a Cover Letter & Business Card"
 description: In this part, I design a template for cover letters and a business card 
 author:     David Leger
-readTime:   9
+readTime:   3
 img:        cover-letter.svg
 ogImg:      cover-letter.png
 
