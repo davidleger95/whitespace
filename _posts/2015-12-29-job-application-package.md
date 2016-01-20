@@ -100,4 +100,4 @@ From creating this design I learned that empathy for your audience is essential 
 
 With this component of the job application package complete, it should now be easier to design the other components following the same theme. In the next post I'll be designing the long-form resume which will elaborate on the individual parts of the single-page resume.
 
-**NEXT PART:** [Applying for Internships (Part 4): Designing a Long-Form]({{page.next.url}})
+**NEXT PART:** [Applying for Internships (Part 4): Designing a Long-Form](/professional%20development/design/2016/01/03/long-form-resume-design.html)
