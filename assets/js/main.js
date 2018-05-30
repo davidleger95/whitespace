@@ -29,7 +29,7 @@ function mobileNav(){
 // Grabs a random quote from quote.json
 function randomQuote(){
     //alert("hi");
-    $.getJSON("/assets/js/quotes.json", function(result){
+    $.getJSON("/whitespace/assets/js/quotes.json", function(result){
         //alert(result);
         var max = result.quotes.length;
         var quoteIndex = Math.floor(Math.random()*max);
